@@ -50,10 +50,8 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "id=" + id +
-                ", model='" + model + '\'' +
-                ", series=" + series +
-                '}';
+        return
+                "Model = " + model + "\n" +
+                "Series = " + series;
     }
 }
